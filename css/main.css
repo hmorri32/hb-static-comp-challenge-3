@@ -81,8 +81,35 @@ border-radius: 50%;
 
 /*Top Navigation*/
 
-.top-input-nav {
+.top-input-nav-container {
   position: absolute;
   left: 22%;
   display: flex;
+  width: 78%;
+}
+
+.input-menu-icon,
+.search-input {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #00abf0;
+}
+
+.search-input input {
+  width: 100%;
+}
+
+.search-input {
+  border-left: none;
+}
+
+.hamburger,
+.search {
+  height: 20px;
+  width: 20px;
+}
+
+.search {
+  padding-right: 10px;
 }
