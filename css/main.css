@@ -7,7 +7,6 @@ Navy: Hex: #004460
 */
 
 
-
 body {
   background-color: #ebf0f6;
   font-family: 'Roboto', sans-serif;
@@ -35,13 +34,14 @@ body {
   justify-content: center;
   align-items: center;
   /*width: 20%;*/
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid #00abf0;
 }
 
 .image-and-name h3 {
   text-align: center;
   margin-bottom: 20px;
 }
+
 .zissou-profile{
 width: 100px;
 height: 100px;
@@ -53,7 +53,15 @@ border-radius: 50%;
 }
 
 .left-nav-items {
-  padding: 20px ;
+  padding: 10px;
+  padding-top: 20px;
+  border-bottom: 1px solid #00abf0;
+  font-size: .8em;
+}
+.left-nav-items img {
+  height: 20px;
+  width: 20px;
+  padding-right: 10px;
 }
 
 .left-nav-items h3 {
@@ -63,7 +71,7 @@ border-radius: 50%;
 
 
 .left-nav-items li {
-  padding: 10px 0 10px 20px;
+  padding: 10px 0 10px 10px;
   cursor: pointer;
   opacity: .6;
   text-transform: uppercase;
