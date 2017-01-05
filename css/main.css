@@ -1,3 +1,15 @@
-p {
-  border: 3px solid #1b3240;
+/*
+Light gray: Hex: #ebf0f6
+Turqouise blue: Hex: #00abf0
+Darker Teal: Hex: #316178
+Dark Gray: Hex: #354052
+Navy: Hex: #004460
+*/
+
+
+
+body {
+  background-color: #ebf0f6;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
 }
