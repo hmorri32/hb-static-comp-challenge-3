@@ -76,6 +76,10 @@ border-radius: 50%;
   text-transform: uppercase;;
 }
 
+.categories {
+  border-bottom: none;
+}
+
 .categories li {
   text-transform: none;
   font-size: .78em;
