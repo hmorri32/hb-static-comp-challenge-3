@@ -218,20 +218,52 @@ border-radius: 50%;
 }
 
 .captain-nav-bar li:hover {
-  border-bottom: 2px solid #00abf0;
+  color: #00abf0;
   cursor: pointer;
 }
 
 
+/*Graphs and stuff*/
 
+.graphs-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
 
+.circles-container {
+  display: flex;
+}
 
+.circles {
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.navy-circle {
+  border: 7px solid #004460;
+}
 
+.gray-circle {
+  border: 7px solid #316178;
+  margin-left: 10px;
 
+}
 
+.blue-circle {
+  border: 7px solid #00abf0;
+  margin-left: 10px;
+}
 
+.graph {
+  height: 200px;
+  width: 200px;
+}
 
-
-
-/**/
+.circle-p {
+}
