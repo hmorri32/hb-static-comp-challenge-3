@@ -314,11 +314,25 @@ border-radius: 50%;
 /*Jobs Container*/
 
 
-.job-description {
+.job-container {
   display: flex;
+  margin-left: 50px ;
 }
 
 .job-description-section {
   display: flex;
   flex-direction: column;
+  width: 70%;
+}
+
+.job-header-container {
+  display: flex;
+  background-color: #354052;
+  height: 50px;
+  align-items: center;
+}
+
+.job-header {
+  color: #ebf0f6;
+
 }
