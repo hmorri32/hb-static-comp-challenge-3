@@ -321,7 +321,7 @@ border-radius: 50%;
 }
 
 .job-description-section {
-  display: flex;
+  /*display: flex;*/
   flex-direction: column;
   width: 70%;
 }
@@ -335,13 +335,20 @@ border-radius: 50%;
 
 .job-header {
   color: #ebf0f6;
-  margin: 30px;
+  margin: 20px 10px 20px 20px;
 }
 
 .job-info {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
 }
 
-.job-h5 {
-  margin-left: 50px;
+.job-info-left {
+  /*margin-left: 30px;*/
+}
+
+.job-info-right {
+  /*margin-left: 50px;*/
 }
