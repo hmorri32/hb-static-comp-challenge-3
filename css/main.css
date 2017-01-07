@@ -19,7 +19,9 @@ body {
 /*SideBar Nav*/
 
 .left-side-container {
-  position: absolute;
+  position: fixed;
+  max-height: 100%;
+  overflow-y: scroll;
   width: 15%;
   background-color: #354052;
   color: #ebf0f6;
