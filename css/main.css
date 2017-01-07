@@ -5,6 +5,7 @@ Turqouise blue: Hex: #00abf0
 Darker Teal: Hex: #316178
 Dark Gray: Hex: #354052
 Navy: Hex: #004460
+ZissouOrange: hex: #ff8159
 */
 
 
@@ -138,7 +139,7 @@ border-radius: 50%;
 }
 
 .icon:hover {
-  background-color: #00abf0;
+  background-color: #ff8159;
 }
 
 /*Captain section*/
@@ -218,7 +219,7 @@ border-radius: 50%;
 }
 
 .captain-nav-bar li:hover {
-  color: #00abf0;
+  color: #ff8159;
   cursor: pointer;
 }
 
@@ -296,7 +297,7 @@ border-radius: 50%;
 .applicant-icon:hover,
 .total-icon:hover {
   cursor: pointer;
-  background-color: #00abf0;
+  background-color: #ff8159;
 }
 
 .applicant-icon {
@@ -334,5 +335,13 @@ border-radius: 50%;
 
 .job-header {
   color: #ebf0f6;
+  margin: 30px;
+}
 
+.job-info {
+  display: flex;
+}
+
+.job-h5 {
+  margin-left: 50px;
 }
