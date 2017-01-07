@@ -323,7 +323,8 @@ border-radius: 50%;
 .job-description-section {
   /*display: flex;*/
   flex-direction: column;
-  width: 70%;
+  width: 60%;
+  background-color: #f5f8fb;
 }
 
 .job-header-container {
@@ -343,6 +344,8 @@ border-radius: 50%;
   flex-direction: row;
   justify-content: space-between;
   margin: 20px;
+  border-bottom: 1px solid #00abf0;
+  padding-bottom: 20px;
 }
 
 .job-info-left {
@@ -351,4 +354,8 @@ border-radius: 50%;
 
 .job-info-right {
   /*margin-left: 50px;*/
+}
+
+.job-h5 {
+  text-transform: uppercase;
 }
