@@ -289,18 +289,36 @@ border-radius: 50%;
   align-items: center;
 }
 
-
 .total-icon {
   margin-left: 140px;
+}
 
+.applicant-icon:hover,
+.total-icon:hover {
+  cursor: pointer;
+  background-color: #00abf0;
 }
 
 .applicant-icon {
   margin-left: 100px;
 }
 
+
+/*Break horizontal line*/
+
 .break {
   border-top: 2px solid #354052;
   margin: 50px 50px;
+}
 
+/*Jobs Container*/
+
+
+.job-description {
+  display: flex;
+}
+
+.job-description-section {
+  display: flex;
+  flex-direction: column;
 }
