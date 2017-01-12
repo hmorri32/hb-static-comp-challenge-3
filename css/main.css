@@ -370,7 +370,8 @@ border-radius: 50%;
 }
 
 .job-description-right-container {
-  /*display: flex;*/
+  display: flex;
+  flex-direction: column;
   width: 35%;
   border: 1px solid black;
 }
@@ -406,19 +407,33 @@ border-radius: 50%;
   width: 100%;
 }
 
-.link-to-job {
+.link-to-job,
+.button-widget-title,
+.resume-title {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   height: 50px;
+  border-bottom: 1px solid black;
 }
 
 .link-to-job-title {
   display: flex;
   align-items: center;
+  font-weight: 700;
 }
 
-.globe {
+/*.button-widget-title,
+.resume-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}*/
+
+
+.globe,
+.button-widget-icon,
+.resume-icon {
   height: 30px;
   margin: 10px;
 }
