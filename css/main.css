@@ -183,6 +183,12 @@ body {
   cursor: pointer;
 }
 
+.open-icon:hover,
+.bookmark-icon:hover,
+.spyglass-icon:hover {
+  background-color: #ff8159;
+}
+
 .bookmark-icon {
   position: absolute;
   right: 10%;
@@ -364,11 +370,20 @@ body {
   text-transform: uppercase;
 }
 
+/*Right container*/
+
 .job-description-right-container {
   display: flex;
   flex-direction: column;
   width: 35%;
   border: 1px solid black;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 35%;
 }
 
 .facebook-container {
@@ -403,8 +418,8 @@ body {
 }
 
 .link-to-job,
-.button-widget-title,
-.resume-title {
+.button-widget,
+.resume {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -412,7 +427,9 @@ body {
   border-bottom: 1px solid black;
 }
 
-.link-to-job-title {
+.link-to-job-title,
+.button-widget-title,
+.resume-title {
   display: flex;
   align-items: center;
   font-weight: 700;
