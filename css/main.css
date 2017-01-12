@@ -370,7 +370,70 @@ border-radius: 50%;
 }
 
 .job-description-right-container {
-  height: 100px;
+  /*display: flex;*/
   width: 35%;
   border: 1px solid black;
 }
+
+.facebook-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3B5998;
+  height: 50px;
+  width: 100%;
+}
+
+.job-icon {
+  height: 30px;
+}
+
+.twitter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #55acee;
+  height: 50px;
+  width: 100%;
+}
+
+.linkedin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0077b5;
+  height: 50px;
+  width: 100%;
+}
+
+.link-to-job {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
+}
+
+.link-to-job-title {
+  display: flex;
+  align-items: center;
+}
+
+.globe {
+  height: 30px;
+  margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
